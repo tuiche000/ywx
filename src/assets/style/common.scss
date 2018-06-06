@@ -1,0 +1,104 @@
+.w {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.active {
+  color: #c81623;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 删除按钮
+.del-btn {
+  display: block;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url(/static/images/account-icon@2x.32d87deb02b3d1c3cc5bcff0c26314ac.png) -50px -60px no-repeat;
+  background-size: 240px 107px;
+  text-indent: -9999em;
+  &:hover {
+    background-position: -75px -60px;
+  }
+}
+
+.layout-container {
+  min-height: 400px;
+  background: #E6E6E6;
+}
+
+.gray-box {
+  overflow: hidden;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  border-color: rgba(0, 0, 0, .14);
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, .1);
+}
+
+.mint-header{ background: #fff!important; color: #434A54!important; }
+.mintui{
+  font-size: 0.3rem!important;
+}
+.mint-header-title{
+  font-size: 0.32rem!important;
+}
+.arrow-right{ width: 0.17rem; }
+.gps { position: relative; }
+.header-bottom{ margin-top: 40px }
+.vh100{ min-height: 100vh; overflow: hidden; }
+.line-24{ padding: 0.24rem 0 }
+.line-80{ padding: 0 0.3rem; height: 0.8rem; display: flex; align-items: center; background: #fff; border-bottom: 0.02rem solid #F1F4F7;}
+.line-30{ padding: 0.3rem 0 }
+.cff{ color: #fff }
+.caa{ color: #AAB2BD }
+.c2a{ color: #2ABA66 }
+.c65{ color: #656D78 }
+.cf0{ color: #F05F5F }
+.bf{ background: #fff; }
+.f28{ font-size: 0.28rem }
+.f23{ font-size: 0.23rem }
+.f20{ font-size: 0.2rem}
+.center{ text-align: center; }
+.flex{ display: flex }
+.flex1{ flex: 1 }
+.col{ flex-direction: column; display: flex; }
+.bet{ justify-content: space-between }
+.flex-center{ display: flex; justify-content: center; align-items: center }
+.align-center{ align-items: center }
+.bot40{ margin-top: 40px; min-height: calc(100vh - 40px); }
+
+
